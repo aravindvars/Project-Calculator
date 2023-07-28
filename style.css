@@ -1,0 +1,18 @@
+#display {
+  height: auto;
+  width: fit-content;
+}
+#enter-text {
+  width: 9rem;
+}
+#numbers {
+  max-width: fit-content;
+}
+
+button {
+  width: 2rem;
+}
+
+.clear {
+  width: fit-content;
+}
