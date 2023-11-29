@@ -7,41 +7,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="display">
-      <form>
-        <label for="enter-text">Number</label><br />
-        <input type="text" id="enter-text" />
-      </form>
+    <header>Calculator</header>
+    <div class="container">
+      <div id="display">
+        <form>
+          <input type="text" id="enter-text" placeholder="Number" />
+        </form>
+      </div>
+      <div id="numbers">
+        <div id="1st-row">
+          <button type="button" class="clear">Clear</button>
+        </div>
+        <div id="2nd-row">
+          <button type="button" class="numberbutton" value="7">7</button>
+          <button type="button" class="numberbutton" value="8">8</button>
+          <button type="button" class="numberbutton" value="9">9</button>
+          <button type="button" class="numberbutton">*</button>
+        </div>
+        <div id="3rd-row">
+          <button type="button" class="numberbutton" value="4">4</button>
+          <button type="button" class="numberbutton" value="5">5</button>
+          <button type="button" class="numberbutton" value="6">6</button>
+          <button type="button" class="numberbutton">-</button>
+        </div>
+        <div id="4th-row">
+          <button type="button" class="numberbutton" value="1">1</button>
+          <button type="button" class="numberbutton" value="2">2</button>
+          <button type="button" class="numberbutton" value="3">3</button>
+          <button type="button" class="numberbutton">+</button>
+        </div>
+        <div id="5th-row">
+          <button type="button" class="numberbutton" value="0">0</button>
+          <button type="button" class="numberbutton">.</button>
+          <button type="button" class="numberbutton">/</button>
+          <button type="button" class="equalTo">=</button>
+        </div>
+      </div>
     </div>
-    <div id="numbers">
-      <div id="1st-row">
-        <button type="button" class="clear">Clear</button>
-      </div>
-      <div id="2nd-row">
-        <button type="button" class="numberbutton" value="7">7</button>
-        <button type="button" class="numberbutton" value="8">8</button>
-        <button type="button" class="numberbutton" value="9">9</button>
-        <button type="button">*</button>
-      </div>
-      <div id="3rd-row">
-        <button type="button" class="numberbutton" value="4">4</button>
-        <button type="button" class="numberbutton" value="5">5</button>
-        <button type="button" class="numberbutton" value="6">6</button>
-        <button type="button">-</button>
-      </div>
-      <div id="4th-row">
-        <button type="button" class="numberbutton" value="1">1</button>
-        <button type="button" class="numberbutton" value="2">2</button>
-        <button type="button" class="numberbutton" value="3">3</button>
-        <button type="button">+</button>
-      </div>
-      <div id="5th-row">
-        <button type="button" class="numberbutton" value="0">0</button>
-        <button type="button">.</button>
-        <button type="button">/</button>
-        <button type="button">=</button>
-      </div>
-    </div>
+
     <script src="index.js"></script>
   </body>
 </html>

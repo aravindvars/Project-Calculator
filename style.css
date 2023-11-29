@@ -1,18 +1,50 @@
-#display {
+body {
+  margin: 0;
+}
+header {
+  margin: 0 auto;
+  background: gray;
+  color: yellow;
+  text-align: center;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: 20px auto;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* /* #display {
   height: auto;
   width: fit-content;
-}
+} */
 #enter-text {
   width: 9rem;
-}
-#numbers {
-  max-width: fit-content;
 }
 
 button {
   width: 2rem;
 }
+button:hover {
+  background: #0c2461;
+  color: #fff;
+  cursor: pointer;
+}
 
 .clear {
   width: fit-content;
+}
+.numberbutton {
+  align-items: center;
+}
+.operatorbutton {
+  padding: 0.5 0 0 0;
 }
